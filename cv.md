@@ -3,8 +3,8 @@
 #### Junior Frontend Developer
 *********
 #### Contact information:
-**Phone:** +375 (29) 376-75-06
-**E-mail:** gunti911@gmail.com
+##### Phone: +375 (29) 376-75-06
+##### E-mail: gunti911@gmail.com
 *********
 #### Briefly About Myself:
 Sociable, purposeful, executive, I can work in a team, ready to learn new programming languages and technologies.
