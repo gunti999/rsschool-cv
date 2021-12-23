@@ -1,6 +1,5 @@
 #### [rsschool-cv](#)
 ## Ilya Ivchenkov
-_____
 #### Junior Frontend Developer
 *********
 #### Contact information:
