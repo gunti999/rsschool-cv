@@ -148,6 +148,12 @@ header{
     margin-bottom: 100px;
 }
 
+.section-code pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
 
 /*----END-MAIN--------------------------------------------*/
 
