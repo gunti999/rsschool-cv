@@ -47,7 +47,7 @@ header{
 .menu-nav ul li a{
     text-decoration: none;
     color: black;
-    
+    font-weight: 600; 
 }
 
 .menu-nav ul li:hover{
@@ -177,7 +177,7 @@ main{
     justify-content: space-between;
 }
 
-.footer-text span{
+.footer-text span, .footer-text a{
     align-self: center;
 }
 
