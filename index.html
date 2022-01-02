@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="container-nav">
+            <nav class="menu-nav">
+                <ul class="menu">
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Code Example</a></li>
+                    <li><a href="">Experience</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Language</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container-main">
+            <div class="main-content">
+                <div class="first-section">
+                    <div class="section-profile">
+                        <div class="profile-img">
+                            <img src="https://st2.depositphotos.com/3643473/6205/i/600/depositphotos_62058073-stock-photo-man-on-his-knees-praising.jpg"
+                                alt="image">
+                        </div>
+                        <div class="profile-text">
+                            <h1>Ilya Ivchenkov</h1>
+                            <span>Junior front-end developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-section">
+                    <div class="section-wrap">
+                        <div class="section-contacts">
+                            <h2>Contacts</h2>
+                            <ul>
+                                <li>Location: Minsk, Belarus</li>
+                                <li>Phone: +375 29 376-75-06</li>
+                                <li>Email: gunti911@gmail.com</li>
+                                <li>GitHub: gunti999</li>
+                                <li>Discord: gunti999</li>
+                            </ul>
+                        </div>
+                        <div class="section-about">
+                            <h2>About Me</h2>
+                            <p>Sociable, purposeful, executive, I can work in a team,
+                                ready to learn new programming languages and technologies.</p>
+                        </div>
+                        <div class="section-skills">
+                            <h2>Skills</h2>
+                            <ul>
+                                <li>js</li>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>mysql</li>
+                                <li>php</li>
+                                <li>git</li>
+                                <li>react</li>
+                                <li>wordpress</li>
+                            </ul>
+                        </div>
+                        <div class="section-code">
+                            <h2>Code Example</h2>
+                            <pre>
+                                <code>
+function solution(number){
+    let num = 0;
+    for (let i = 0; i < number; i++) {
+      if (i % 3 == 0 || i % 5 == 0) {
+        num += i;
+      }  
+    }
+    return num;
+  }                                   
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="section-experience">
+                            <h2>Experience</h2>
+                            <ul>
+                                <li>CV (RS School)</li>
+                                <li>It-Academy (php)</li>
+                            </ul>
+                        </div>
+                        <div class="section-education">
+                            <h2>Education</h2>
+                            <ul>
+                                <li>Institute of journalism BSU</li>
+                            </ul>
+                        </div>
+                        <div class="section-language">
+                            <h2>Language</h2>
+                            <ul>
+                                <li>A2 (reading and understanding technical documentation)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="footer-text">
+                <span>&copy 2022</span>
+                <a href="https://rs.school/js/">
+                    <img class="rs" src="https://app.rs.school/static/images/logo-rsschool3.png" alt="rs">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
